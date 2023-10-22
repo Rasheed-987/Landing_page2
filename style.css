@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 15px 0;
+    display: flex;
+justify-content: space-between;
+}
+.left{
+    
+    position: relative;
+    left: 34px;
+}
+.right{
+    position: relative;
+    right: -56px;
+
+}
+
+.container1{
+    width:100vw; 
+    position: relative;
+ margin: 0 83px;   
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    width: 1500px;
+    grid-row-gap: 3px;
+    position: relative;
+    /* display: inline-block; */
+}
+.grid-item img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+ 
+  
+.about-container{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    gap: 24px;
+}
+.container3{
+    margin: 45px 83px;
+}
+.container1 p{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.container3 p{
+    position: absolute;   
+  background: rgba(0, 0, 0, 0.7); 
+  color: #fff; 
+  padding: 5px 10px; 
+  font-size: 16px; 
+}
+.div1 img{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+}
+.container5 h2,p{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.contact{
+
+    width: 100%;
+}
+.container6{
+    width:1500px; 
+    height: 500px;
+
+}
+
+.new{
+    width: 417px;
+    height: 24px;
+}
+.send{
+    width: 112px;
+}
